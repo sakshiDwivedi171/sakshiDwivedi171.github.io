@@ -671,11 +671,41 @@
       height: 350px;
       width: 350px;
     }
+    .skills .skills-content .column {
+      width: calc(10% - 10px);
+      /* border: 2px solid black; */
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      column-gap: 100px;
+      
+      
+    }
+    .skills-images img{
+      width: 200px;
+    }
   }
   
   @media (max-width: 991px) {
     .max-width {
       padding: 0 50px;
+    }
+    .skills .skills-content .column {
+      width: calc(10% - 10px);
+      /* border: 2px solid black; */
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      column-gap: 100px;
+      
+      
+    }
+    .skills-images img{
+      width: 180px;
     }
   }
   @media (max-width: 947px) {
@@ -692,7 +722,7 @@
       width: 100%;
       left: -100%;
       top: 0;
-      background: #111;
+      background: #92bcb5;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
@@ -740,7 +770,24 @@
     .contact .contact-content .column {
       width: 100%;
       margin-bottom: 35px;
+      
     }
+    .skills .skills-content .column {
+      width: calc(10% - 10px);
+      /* border: 2px solid black; */
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      column-gap: 100px;
+      
+      
+    }
+    .skills-images img{
+      width: 180px;
+    }
+    
   }
   
   @media (max-width: 690px) {
@@ -758,6 +805,21 @@
     }
     .services .serv-content .card {
       width: 100%;
+    }
+    .skills .skills-content .column {
+      width: calc(10% - 10px);
+      /* border: 2px solid black; */
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      column-gap: 50px;
+      
+      
+    }
+    .skills-images img{
+      width: 120px;
     }
   }
   
@@ -789,5 +851,20 @@
       width: 35px;
       font-size: 23px;
       line-height: 38px;
+    }
+    .skills .skills-content .column {
+      width: calc(10% - 10px);
+      /* border: 2px solid black; */
+      height: 100vh;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      column-gap: 50px;
+      
+      
+    }
+    .skills-images img{
+      width: 140px;
     }
   }
