@@ -72,4 +72,4 @@ $(document).ready(function () {
     });
   });
 
-  new GitHubCalender(".calender", "Grajoria0083", { Response:true});
+  new GitHubCalender(".calender", "sakshidwivedi171", { Response:true});
