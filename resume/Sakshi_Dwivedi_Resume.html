@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakshi Dwivedi - SDET Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      line-height: 1.28;
+      color: #222;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.15in 0.25in 0.15in 0.25in;
+      background: #fff;
+    }
+    @media print {
+      body { padding: 0.12in 0.25in 0.12in 0.25in; }
+      .no-print { display: none; }
+    }
+
+    .resume-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 12px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 6px;
+    }
+    .resume-header-left { flex: 0 0 auto; font-size: 9px; color: #333; line-height: 1.6; }
+    .resume-header-left .resume-contact span { display: block; }
+    .resume-header-center { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin-left: 48px; }
+    .resume-header-right { flex: 0 0 auto; display: flex; flex-direction: column; justify-content: center; align-items: flex-end; text-align: right; }
+    .resume-name { font-size: 18px; font-weight: bold; margin-bottom: 2px; }
+    .resume-title { font-size: 10px; color: #444; }
+    .resume-links { font-size: 9px; line-height: 1.6; text-align: right; }
+    .resume-links a { display: block; color: #1a0dab; text-decoration: none; margin-bottom: 2px; }
+
+    .section { margin-bottom: 8px; }
+    .section-title {
+      font-size: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      margin-bottom: 4px;
+      padding-bottom: 1px;
+      border-bottom: 1px solid #333;
+    }
+    .summary { text-align: justify; }
+
+    .skills-grid { margin-bottom: 2px; }
+    .skills-two-col {
+      display: flex;
+      gap: 14px;
+    }
+    .skills-col { flex: 1; min-width: 0; }
+    .skill-row { margin-bottom: 1.5px; font-size: 9px; }
+    .skill-cat { font-weight: bold; display: inline; }
+    .skill-cat::after { content: " "; }
+    @media print {
+      .skills-two-col { gap: 12px; }
+    }
+
+    .job-block { margin-bottom: 8px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: nowrap; }
+    .job-title { font-weight: bold; font-size: 10px; flex-shrink: 0; }
+    .job-dates { font-size: 9px; color: #555; flex-shrink: 0; white-space: nowrap; }
+    .job-company { font-size: 9px; color: #444; margin-bottom: 2px; }
+    ul.job-bullets {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.job-bullets li {
+      position: relative;
+      padding-left: 12px;
+      margin-bottom: 2px;
+      text-align: justify;
+      font-size: 10px;
+    }
+    ul.job-bullets li::before {
+      content: "\2022";
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    .project-name { font-weight: bold; font-size: 10px; }
+    .project-tag { font-size: 9px; color: #444; margin-bottom: 2px; }
+
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+      font-size: 10px;
+    }
+    .edu-left { flex: 1; min-width: 0; }
+    .edu-degree { font-weight: bold; }
+    .edu-institution { color: #444; font-size: 9px; }
+    .edu-year { font-size: 9px; color: #555; flex-shrink: 0; white-space: nowrap; }
+
+    .core-competencies { font-size: 9px; color: #333; margin-bottom: 8px; }
+    .core-competencies strong { font-size: 9px; }
+    .no-print { margin-bottom: 8px; font-size: 9px; color: #666; }
+  </style>
+</head>
+<body>
+  <p class="no-print">Save as PDF: File → Print → Destination: Save as PDF. Margins: Default or Minimum.</p>
+
+  <header class="resume-header">
+    <div class="resume-header-left">
+      <div class="resume-contact">
+        <span>+91-8127503641</span>
+        <span>Bengaluru, Karnataka</span>
+        <span>sakshidwivedi171@gmail.com</span>
+      </div>
+    </div>
+    <div class="resume-header-center">
+      <div class="resume-name">Sakshi Dwivedi</div>
+      <div class="resume-title">SDET | QA Automation Engineer</div>
+    </div>
+    <div class="resume-header-right">
+      <div class="resume-links">
+        <a href="https://github.com/sakshiDwivedi171" target="_blank" rel="noopener noreferrer">https://github.com/sakshiDwivedi171</a>
+        <a href="https://linkedin.com/in/sakshi-dwivedi-0a277b233" target="_blank" rel="noopener noreferrer">https://linkedin.com/in/sakshi-dwivedi-0a277b233</a>
+        <a href="https://sakshidwivedi171.github.io" target="_blank" rel="noopener noreferrer">https://sakshidwivedi171.github.io</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <div class="summary">
+      QA Automation Engineer / SDET with 3+ years developing and executing automated test frameworks for web and API applications. Proficient in Java, Selenium WebDriver, TestNG, REST Assured, Postman, and CI/CD tools. Designed and maintained 50+ automated test suites using BDD (Cucumber) and Page Object Model, reducing manual testing by 40% and accelerating release cycles. Expertise in functional, regression, integration, API, security (Burp Suite, OWASP ZAP), and performance testing. Skilled at identifying critical defects, improving test coverage, and delivering high-quality software. Knowledge of SDLC, Agile, and QA best practices and standards. <strong>Core Competencies:</strong> Test Automation, API Testing, BDD, CI/CD, Security Testing, Performance Testing, SQL, Agile, DevOps, Test Strategy, Test Architecture, Shift-Left Testing, Smoke Testing, Sanity Testing, Exploratory Testing, Risk-Based Testing, CI Pipelines, Release Management.
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid skills-two-col">
+      <div class="skills-col">
+        <div class="skill-row"><span class="skill-cat">Programming Languages:</span> Java, SQL, JSON, XML</div>
+        <div class="skill-row"><span class="skill-cat">Frameworks &amp; Libraries:</span> Spring Boot, JUnit, TestNG, Selenium WebDriver, Cucumber (BDD), REST Assured, Hibernate</div>
+        <div class="skill-row"><span class="skill-cat">API &amp; Performance:</span> Postman, Swagger, JMeter, SOAP UI, BlazeMeter</div>
+        <div class="skill-row"><span class="skill-cat">CI/CD &amp; DevOps:</span> Jenkins, Git, GitHub, GitLab</div>
+        <div class="skill-row"><span class="skill-cat">Monitoring &amp; Logging:</span> Grafana, Prometheus, New Relic, ELK Stack</div>
+        <div class="skill-row"><span class="skill-cat">Security Testing:</span> Burp Suite, OWASP ZAP, VA Scan</div>
+      </div>
+      <div class="skills-col">
+        <div class="skill-row"><span class="skill-cat">Databases &amp; Tools:</span> MySQL, PostgreSQL, Oracle, Redis, RabbitMQ, Kafka, Elasticsearch</div>
+        <div class="skill-row"><span class="skill-cat">Test Management &amp; Agile:</span> Jira, Confluence, Zephyr, Agile, Scrum</div>
+        <div class="skill-row"><span class="skill-cat">Automation:</span> Page Object Model (POM), Data-Driven, Keyword-Driven, Hybrid Frameworks</div>
+        <div class="skill-row"><span class="skill-cat">Testing:</span> Functional, Regression, Integration, System, Database, E2E; SDLC, STLC, Test Planning, Defect Tracking</div>
+        <div class="skill-row"><span class="skill-cat">Cloud &amp; Systems:</span> AWS (EC2, CloudWatch), Docker, Kubernetes, Linux, Shell Scripting</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Deputy Assistant Manager – Quality Assurance</div>
+        <div class="job-dates">Mar 2024 — Present</div>
+      </div>
+      <div class="job-company">NJ Group India, Surat</div>
+      <ul class="job-bullets">
+        <li>Worked in high-pressure fintech environment (2L+ crore AUM); owned end-to-end QA for critical financial modules (Purchase, SIP, SWP, STP, Switch). Designed, reviewed, and executed 800+ test cases with 95%+ functional coverage across Black Box, Functional, Regression, and Database Testing; performed Black Box Testing to validate workflows, calculations, and system behavior without code-level access.</li>
+        <li>Implemented API automation using BlazeMeter Feature File Recorder and Java/Cucumber/JUnit; reduced manual regression by 40–50%. Created automation feature files by recording API flows (URLs, steps, request/response payloads); generated JSON configs and executed automated suites via IntelliJ; integrated with Jenkins and monitored test metrics in Grafana for continuous quality visibility.</li>
+        <li>Defined test strategy and owned test architecture; planned regression cycles and coordinated UAT and release sign-offs. Conducted backend data validation and auditing via SQL for financial transactions, logs, and reports; conducted security testing (Burp Suite, VA scans). Managed defect lifecycle with 90%+ closure rate; test planning, estimation, and release validation; mentored QA interns; supported production issue analysis with development teams.</li>
+        <li>Reviewed test cases with QA interns, provided feedback on coverage and edge cases, and drove improvements in test quality and consistency across QA team.</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Software Developer – Quality Assurance</div>
+        <div class="job-dates">Jun 2023 — Nov 2023</div>
+      </div>
+      <div class="job-company">Prospecta Software, Gurugram</div>
+      <ul class="job-bullets">
+        <li>Developed and maintained Master Data Management (MDM) for 50,000+ records; improved data accuracy and integrity by 15%. Designed and implemented automation frameworks for data processing, validation, and lifecycle management, increasing operational efficiency by 20% and reducing data errors by 12% through business logic and governance rules.</li>
+        <li>Built and executed automated test scripts for data integration and system functionality; achieved 95% test coverage and reduced manual testing by 30%. Optimized system performance through troubleshooting and fine-tuning, enhancing data processing speed by 25%; conducted unit, integration, and regression testing and root cause analysis; maintained 99% production uptime and collaborated with cross-functional teams to resolve critical bugs in production.</li>
+        <li>Assisted in root cause analysis and implemented corrective fixes, reducing recurring defects significantly across production systems.</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Backend Developer (Founding Team)</div>
+        <div class="job-dates">Mar 2023 — Jun 2024</div>
+      </div>
+      <div class="job-company">Growder Technovations Pvt. Ltd., Surat</div>
+      <ul class="job-bullets">
+        <li>Developed backend modules for OTP-based SMS (Smart Ping) and email verification (Netcore), cart and wishlist for B2B platform; improved onboarding success by 30%, reduced checkout errors by 20%. Built JWT, session handling, RBAC; designed reusable APIs for SMS/email vendors, payment gateways, and internal services, accelerating development cycles by 25%.</li>
+        <li>Automated inventory sync, order verification, and dispatch triggers; reduced manual dependencies by 30%. Implemented logging and monitoring pipelines for backend and third-party API reliability; improved issue resolution time by 40%. Collaborated with frontend and QA; Java, Spring Boot, PostgreSQL/MySQL, Redis, AWS; improved API reliability and reduced defects by 15%; applied clean architecture and domain-driven design for scalability.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="job-block">
+      <div class="project-name">NJ E-Wealth (EWA) – Mutual Fund / MARS</div>
+      <div class="project-tag">Automation, API &amp; Security Testing</div>
+      <ul class="job-bullets">
+        <li>Created BDD feature files and automated test cases using Java, Cucumber, JUnit in IntelliJ IDEA, covering positive and negative scenarios; performed API testing with Postman (request parameters, path variables, authentication, response payloads); conducted security testing with Burp Suite including SQL Injection and VA scans for vulnerability assessment.</li>
+        <li>Integrated automated execution with Jenkins and monitored test metrics using Grafana dashboards; worked on 15+ modules including NSE, BSE, and MARS data, ensuring functional, API, and security coverage across mutual fund and wealth management flows.</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="project-name">Partner Desk, Trading Account &amp; DDSD</div>
+      <div class="project-tag">Functional, API, Security &amp; Performance Testing</div>
+      <ul class="job-bullets">
+        <li>Automated functional and end-to-end workflows using BDD (Java, Cucumber, JUnit) in IntelliJ; validated APIs with Postman (request parameters, path variables, authentication, positive/negative scenarios, response verification); performed security testing with Burp Suite (API vulnerabilities, SQL Injection, VA scans, injection risks); maintained test artifacts and runbooks.</li>
+        <li>Executed performance testing with DP Tool (50,000+ records per UCC/client in single run); validated load, scalability, and performance; integrated test suites with Jenkins CI/CD for regression and reduced manual effort.</li>
+        <li>Monitored metrics using Grafana; ensured functional, API, security, and performance coverage across Partner Desk, Trading Account, and DDSD.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-row">
+      <div class="edu-left"><span class="edu-degree">Bachelor of Technology (B.Tech)</span><span class="edu-institution"> — United Institute of Technology, Naini, Prayagraj</span></div>
+      <span class="edu-year">2013–2017</span>
+    </div>
+    <div class="edu-row">
+      <div class="edu-left"><span class="edu-degree">Senior Secondary (Science – PCM)</span><span class="edu-institution"> — Air Force School, Bamrauli, Prayagraj</span></div>
+      <span class="edu-year">2012–2013</span>
+    </div>
+    <div class="edu-row">
+      <div class="edu-left"><span class="edu-degree">Full Stack Web Development (Certification)</span><span class="edu-institution"> — Masai School, Bengaluru</span></div>
+      <span class="edu-year">2023</span>
+    </div>
+  </section>
+</body>
+</html>
